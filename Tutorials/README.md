@@ -223,7 +223,7 @@ Open your browser and navigate to the Grafana interface. Select the GPS Tracker 
 
 
 
-![GPS Tracker Dashboard](./gps_tracker_dashboard.png)
+![GPS Tracker Dashboard](../notebooks/market-data/vehicle-tracking/gps_tracker_dashboard.png)
 
 
 ### Customizing the GPS Tracker:
