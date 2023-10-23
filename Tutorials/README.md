@@ -104,6 +104,13 @@ For each domain, we will offer specific machine learning templates:
 - **Vehicle Tracking**: Route optimization, vehicle health diagnostics, traffic prediction.
 - **Weather Station**: Weather trend analysis, prediction models for climate changes, rain prediction.
 - **Market Data**: Algorithmic trading strategies, risk analysis, market sentiment analysis.
+### Goal
+
+With this diverse suite of ready-to-use notebooks, users can delve into various domains without the hassle of setting up from ground zero. Especially beneficial for those starting their journey in data science, it offers a clear roadmap for experimentation.
+
+### Contribute
+
+Your insights are invaluable! We ardently invite the community to pitch in with their expertise to nurture and expand this suite of notebooks. Let's collaboratively enhance the capability of the AI Agent Host for all data science enthusiasts!
 
 1. **Coinbase**
 ## Real-time Synchronization of Coinbase Trades to QuestDB using WebSockets in Python
@@ -357,10 +364,4 @@ Remote access and management of robots are facilitated through the AI Agent Host
 
 In summary, the AI Agent Host is a valuable addition to your robot or IoT device, providing a flexible and feature-rich environment for development, data management, and AI integration. It empowers your device to operate efficiently, make intelligent decisions, and interact effectively with its environment, making it suitable for various applications, from surveillance and exploration to automation and research. 
  
-### Goal
 
-With this diverse suite of ready-to-use notebooks, users can delve into various domains without the hassle of setting up from ground zero. Especially beneficial for those starting their journey in data science, it offers a clear roadmap for experimentation.
-
-### Contribute
-
-Your insights are invaluable! We ardently invite the community to pitch in with their expertise to nurture and expand this suite of notebooks. Let's collaboratively enhance the capability of the AI Agent Host for all data science enthusiasts!
