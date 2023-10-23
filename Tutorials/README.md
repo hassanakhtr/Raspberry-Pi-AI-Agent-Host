@@ -112,8 +112,10 @@ With this diverse suite of ready-to-use notebooks, users can delve into various 
 
 Your insights are invaluable! We ardently invite the community to pitch in with their expertise to nurture and expand this suite of notebooks. Let's collaboratively enhance the capability of the AI Agent Host for all data science enthusiasts!
 
-1. **Coinbase**
-## Real-time Synchronization of Coinbase Trades to QuestDB using WebSockets in Python
+## 1. **Coinbase**
+   
+   ## Real-time Synchronization of Coinbase Trades to QuestDB using WebSockets in Python
+
 
 This script achieves real-time synchronization between Coinbase, a popular cryptocurrency exchange, and QuestDB, a high-performance, time-series database. Initially, it establishes a connection to Coinbase's Websocket feed and subscribes to match events for BTC-USD and ETH-USD trading pairs. Concurrently, it connects to a QuestDB instance running on a Docker host. If not already present, a table named 'coinbase_matches' is created to store trading match details. The script continuously listens for new data from Coinbase, and upon receiving, inserts the data into the 'coinbase_matches' table in QuestDB. If the websocket connection closes unexpectedly, it attempts a reconnection. Additionally, if any other unexpected errors occur during data retrieval or insertion, the script prints the error for debugging purposes.
 
@@ -177,9 +179,10 @@ JSON dashboard file for Grafana, a platform for monitoring and visualizing metri
 
  ![dashboard coinbase](../notebooks/market-data/coinbase/dashboard-coinbase.png)
 
-2. **Vehicle-Tracking**
+## 2. **Vehicle-Tracking**
 
-##  Quectel EG25/EC25 Mini PCIe 4G/LTE  GPS Tracker
+   ##  Quectel EG25/EC25 Mini PCIe 4G/LTE  GPS Tracker
+
 
 ### Overview
 
@@ -274,7 +277,7 @@ The AI Agent Host-Based GPS Tracker offers numerous benefits and advantages comp
 
 The AI Agent Host-Based GPS Tracker provides users with greater control, privacy, and customization options compared to traditional trackers. It empowers you to design a tracking solution that precisely fits your needs while maintaining ownership of your data and reducing reliance on external services.
 
-# 3. **##Weather-Station**
+## 3. **Weather-Station**
 
    ## BME680 Weather Station
 
