@@ -322,6 +322,7 @@ If you're interested in obtaining more accurate Indoor Air Quality (IAQ), Volati
 
 Additionally, consider integrating an LCD monitor to your Raspberry Pi setup. This customizable enhancement complements Grafana's web-based visualization, providing flexibility in monitoring and interacting with your data.
 
+#Documents
 # AI Agent Host for Robotics and IoT
 
 The AI Agent Host serves as a versatile and powerful software platform that enhances the capabilities of robots and IoT (Internet of Things) devices in several ways:
