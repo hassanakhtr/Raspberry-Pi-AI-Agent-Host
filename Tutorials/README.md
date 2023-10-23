@@ -112,6 +112,7 @@ With this diverse suite of ready-to-use notebooks, users can delve into various 
 
 Your insights are invaluable! We ardently invite the community to pitch in with their expertise to nurture and expand this suite of notebooks. Let's collaboratively enhance the capability of the AI Agent Host for all data science enthusiasts!
 
+
 ## 1. **Coinbase**
    
    ## Real-time Synchronization of Coinbase Trades to QuestDB using WebSockets in Python
@@ -367,17 +368,17 @@ Remote access and management of robots are facilitated through the AI Agent Host
 
 In summary, the AI Agent Host is a valuable addition to your robot or IoT device, providing a flexible and feature-rich environment for development, data management, and AI integration. It empowers your device to operate efficiently, make intelligent decisions, and interact effectively with its environment, making it suitable for various applications, from surveillance and exploration to automation and research. 
  
-# Quectel EG25/EC25 Mini PCIe 4G/LTE Module HAT Setup with Python
+## Quectel EG25/EC25 Mini PCIe 4G/LTE Module HAT Setup with Python
 
 Combined with the Sixfab 3G – 4G/LTE Base HAT for Raspberry Pi, the EG25/EC25 Mini PCIe 4G/LTE Module offers high-speed cellular connectivity and GPS capabilities, making it ideal for IoT and tracking applications.
 
-## Hardware Prerequisites
+### Hardware Prerequisites
 
 - Raspberry Pi 4B 8GB
 - Sixfab 3G – 4G/LTE Base HAT for Raspberry Pi
 - Quectel EG25/EC25 Mini PCIe 4G/LTE Module
 
-## Software Prerequisites
+### Software Prerequisites
 
 Before initiating the QMI, it's essential to verify that the module is appropriately configured. To check and adjust the settings, you can use `minicom`, a terminal-based serial communication program.
 
@@ -394,17 +395,17 @@ Once done, you can exit `minicom` by pressing `Ctrl` + `A` followed by `X` and t
 
 
 
-## QMI Mode Cellular Connection Setup for Raspberry Pi (as `wwan0`)
+### QMI Mode Cellular Connection Setup for Raspberry Pi (as `wwan0`)
 
 This guide explains how to set up a cellular connection on your Raspberry Pi using QMI mode, which exposes a `wwan0` interface.
 
-### Prerequisites
+#### Prerequisites
 
 - Raspberry Pi with a Quectel modem or similar, which should preferably be in QMI mode.
 - `libqmi-utils` and `udhcpc` packages installed.
 - APN (Access Point Name) for your cellular network provider.
 
-### Installation
+#### Installation
 
 1. Install the required utilities:
 
@@ -413,7 +414,7 @@ This guide explains how to set up a cellular connection on your Raspberry Pi usi
    ```
    
 
-### Configuration
+#### Configuration
 
 1. Verify the modem's operating mode:
 
@@ -460,7 +461,7 @@ ping -I wwan0 www.google.com -c 5
 ```
 
 
-### Reconnection after Reboot
+#### Reconnection after Reboot
 
 After a system reboot, you'll need to rerun the following to reconnect:
 
@@ -475,7 +476,7 @@ sudo udhcpc -q -f -i wwan0
 ```
 
 
-### Automate Reconnection
+#### Automate Reconnection
 
 To automatically reconnect on system boot, create a configuration file:
 
