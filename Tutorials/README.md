@@ -274,7 +274,7 @@ The AI Agent Host-Based GPS Tracker offers numerous benefits and advantages comp
 
 The AI Agent Host-Based GPS Tracker provides users with greater control, privacy, and customization options compared to traditional trackers. It empowers you to design a tracking solution that precisely fits your needs while maintaining ownership of your data and reducing reliance on external services.
 
-3. **##Weather-Station**
+# 3. **##Weather-Station**
 
    ## BME680 Weather Station
 
